@@ -1,10 +1,10 @@
-[ ] global variable called 'basket' set to an empty array
-[ ] write test code
-[ ] function called addItem
-[ ] addItem takes input parameter of a string 'item'
-[ ] addItem adds item to global array 'basket'
-[ ] addItem returns value of true
-[ ] write test code
+[X] global variable called 'basket' set to an empty array
+[X] write test code
+[X] function called addItem
+[X] addItem takes input parameter of a string 'item'
+[X] addItem adds item to global array 'basket'
+[X] addItem returns value of true
+[X] write test code
 [ ] function called listItems
 [ ] listItems loops over all the items in the array 'basket'
 [ ] listItems console.log all of the items in the array individually

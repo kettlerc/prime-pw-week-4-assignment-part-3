@@ -1,0 +1,26 @@
+[ ] global variable called 'basket' set to an empty array
+[ ] write test code
+[ ] function called addItem
+[ ] addItem takes input parameter of a string 'item'
+[ ] addItem adds item to global array 'basket'
+[ ] addItem returns value of true
+[ ] write test code
+[ ] function called listItems
+[ ] listItems loops over all the items in the array 'basket'
+[ ] listItems console.log all of the items in the array individually
+[ ] write test code
+[ ] function called empty
+[ ] empty resets the basket to an empty array
+[ ] write test code
+[ ] global const called maxItems
+[ ] function called isFull
+[ ] isFull returns false if basket is less than or equal to maxItems
+[ ] isFull returns true if basket is more than maxItems
+[ ] write test code
+[ ] update addItem function to include isFull function
+[ ] write test code
+[ ] function called removeItem
+[ ] removeItem takes input parameter of string
+[ ] removeItem uses array.indexOf to find the matching string in the array
+[ ] removeItem uses array.splice to remove string from the array
+[ ] remove item returns removed string or 'null' if the item isn't found

@@ -5,13 +5,13 @@
 [X] addItem adds item to global array 'basket'
 [X] addItem returns value of true
 [X] write test code
-[ ] function called listItems
-[ ] listItems loops over all the items in the array 'basket'
-[ ] listItems console.log all of the items in the array individually
-[ ] write test code
-[ ] function called empty
-[ ] empty resets the basket to an empty array
-[ ] write test code
+[X] function called listItems
+[X] listItems loops over all the items in the array 'basket'
+[X] listItems console.log all of the items in the array individually
+[X] write test code
+[X] function called empty
+[X] empty resets the basket to an empty array
+[X] write test code
 [ ] global const called maxItems
 [ ] function called isFull
 [ ] isFull returns false if basket is less than or equal to maxItems

@@ -19,8 +19,8 @@
 [X] write test code
 [X] update addItem function to include isFull function
 [X] write test code
-[ ] function called removeItem
-[ ] removeItem takes input parameter of string
-[ ] removeItem uses array.indexOf to find the matching string in the array
-[ ] removeItem uses array.splice to remove string from the array
-[ ] remove item returns removed string or 'null' if the item isn't found
+[X] function called removeItem
+[X] removeItem takes input parameter of string
+[X] removeItem uses array.indexOf to find the matching string in the array
+[X] removeItem uses array.splice to remove string from the array
+[X] remove item returns removed string or 'null' if the item isn't found

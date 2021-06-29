@@ -47,31 +47,41 @@ listItems();
 
 //function to check and see if the cart is full
 function isFull(){
-  if (basket.length <= maxItems){
+  console.log('Is your basket full?');
+  if (basket.length < maxItems){
     return false;
   } else {
     return true;
   }
 } // end isFull
 
-//testing to see if basket is full, currently empty because the empty function has been called
-//commented out empty to test and isFull functions properly
+//testing to see if basket is full
 console.log(isFull());
 
 //function to remove an item from the Basket
 function removeItem(item){
-
-}
+  console.log(`You are removing ${item} from your basket`);
+  let index = basket.indexOf(item);
+  if (index !== -1) {
+    basket.splice(index, 1)
+  } else {
+    return null;
+  }
+} //end removeItem
 
 //test to see if item was removed from basket
+removeItem('milk');
+console.log(basket);
+console.log(removeItem('ice cream'));
 console.log(basket);
 
 //function to reset the basket to an empty array
 function empty(){
+  console.log('Emptying your basket');
   basket = [];
   console.log('Your basket is now empty');
 } //end empty
 
 //calling the function for testing
 empty();
-// console.log(basket);
+console.log(basket);

@@ -12,11 +12,11 @@
 [X] function called empty
 [X] empty resets the basket to an empty array
 [X] write test code
-[ ] global const called maxItems
-[ ] function called isFull
-[ ] isFull returns false if basket is less than or equal to maxItems
-[ ] isFull returns true if basket is more than maxItems
-[ ] write test code
+[X] global const called maxItems
+[X] function called isFull
+[X] isFull returns false if basket is less than or equal to maxItems
+[X] isFull returns true if basket is more than maxItems
+[X] write test code
 [ ] update addItem function to include isFull function
 [ ] write test code
 [ ] function called removeItem

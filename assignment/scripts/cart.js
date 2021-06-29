@@ -4,7 +4,8 @@ console.log('***** Cart Functions *****');
 
 //initial global variable
 let basket = [];
-console.log(`Items currently in basket: ${basket}`);
+console.log('Your basket is currently empty');
+console.log(basket);
 
 //function to add items to the cart
 function addItem (item) {
@@ -18,12 +19,15 @@ function addItem (item) {
 
 //testing addItem function
 console.log(addItem('milk'));
+console.log(basket);
 console.log(addItem('eggs'));
+console.log(basket);
+console.log(addItem('bread'));
 console.log(basket);
 
 //function to list out all items in the basket
 function listItems () {
-  console.log('The items currently in your basket:');
+  console.log('Items currently in your basket:');
   for (let i=0; i < basket.length; i++){
     console.log(basket[i]);
   }
@@ -36,8 +40,24 @@ listItems();
 function empty(){
   basket = [];
   console.log('Your basket is now empty');
-} //end empty function
+} //end empty
 
 //calling the function for testing
 empty();
 console.log(basket);
+
+//maximum items allowed in the basket
+const maxItems = 5;
+
+//function to check and see if the cart is full
+function isFull(){
+  if (basket.length <= maxItems){
+    return false;
+  } else {
+    return true;
+  }
+} // end isFull
+
+//testing to see if basket is full, currently empty because the empty function has been called
+//commented out empty and isFull functions properly
+console.log(isFull());

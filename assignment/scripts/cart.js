@@ -58,6 +58,14 @@ function isFull(){
 //commented out empty to test and isFull functions properly
 console.log(isFull());
 
+//function to remove an item from the Basket
+function removeItem(item){
+
+}
+
+//test to see if item was removed from basket
+console.log(basket);
+
 //function to reset the basket to an empty array
 function empty(){
   basket = [];

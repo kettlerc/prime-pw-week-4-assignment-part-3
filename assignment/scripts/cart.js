@@ -3,10 +3,10 @@ console.log('***** Cart Functions *****');
 // We want to see how you are testing your code!!!
 
 const basket = [];
-console.log(basket);
+console.log(`Items currently in basket: ${basket}`);
 
 function addItem (item) {
-  console.log('in addItem:');
+  console.log(`${item} added to the basket!`);
   if (basket.push(item)) {
     return true;
   } else {
@@ -15,5 +15,5 @@ function addItem (item) {
 } //end addItem
 
 addItem('milk');
-console.log(addItem());
+addItem('eggs');
 console.log(basket);

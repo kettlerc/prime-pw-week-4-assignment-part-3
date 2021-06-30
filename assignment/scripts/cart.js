@@ -64,13 +64,14 @@ function removeItem(item){
   let index = basket.indexOf(item);
   if (index !== -1) {
     basket.splice(index, 1)
+    return item;
   } else {
     return null;
   }
 } //end removeItem
 
 //test to see if item was removed from basket
-removeItem('milk');
+console.log(removeItem('milk'));
 console.log(basket);
 console.log(removeItem('ice cream'));
 console.log(basket);
